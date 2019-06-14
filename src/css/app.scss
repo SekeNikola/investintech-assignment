@@ -1,0 +1,104 @@
+// COLORS
+$white: #fff;
+$white2:#FFFEFE;
+$darkwhite: #F5F5F5;
+$black: #333333;
+$lightgray: #CCCCCC;
+$gray:#9A9FA1;
+$darkgray:#999999;
+$darkgreen: #353E42;
+$blue: #0092DB;
+$red: #ff0000;
+
+// RESET
+body {
+  margin: 0;
+  padding: 0;
+  background: $white2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.red {
+  color: $red;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+// NAVBAR
+.navbar-dark {
+  background: $darkgreen;
+
+  .navbar-nav .nav-link {
+    color: $white;
+  }
+}
+
+// BANNER
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 450px;
+  color: $white;
+  padding: 20px;
+  background: linear-gradient(180deg, #479AE3 0%, #0078D9 100%);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// PRODUCTS
+.products {
+  padding: 20px;
+  background: $darkwhite
+}
+
+// TESTEMONIALS CONTACTS
+.testemon-contact {
+  padding: 20px;
+
+  .testemon {
+    display: flex;
+
+    img {
+      height: 80px;
+    }
+  }
+
+  .btnContact {
+    height: 40px;
+    width: 120px;
+    background: $blue;
+    color: $white;
+    border: none;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      background: $darkgreen
+    }
+  }
+}
+
+//  FOOTER
+footer {
+  background: $darkgreen;
+  color: $gray;
+  font-size: .8em;
+  padding: 20px;
+
+  .fa {
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+
+  a {
+    color: $gray;
+    margin-right: 10px;
+  }
+}
