@@ -35,7 +35,6 @@ body {
 // NAVBAR
 .navbar-dark {
   background: $darkgreen;
-
   .navbar-nav .nav-link {
     color: $white;
   }
@@ -67,10 +66,8 @@ body {
 // TESTEMONIALS CONTACTS
 .testemon-contact {
   padding: 20px;
-
   .testemon {
     display: flex;
-
     img {
       height: 80px;
     }
@@ -83,7 +80,6 @@ body {
     color: $white;
     border: none;
     transition: all .5s ease-in-out;
-
     &:hover {
       background: $darkgreen
     }
@@ -96,12 +92,10 @@ footer {
   color: $gray;
   font-size: .8em;
   padding: 20px;
-
   .fa {
     margin-right: 10px;
     font-size: 1.5em;
   }
-
   a {
     color: $gray;
     margin-right: 10px;
